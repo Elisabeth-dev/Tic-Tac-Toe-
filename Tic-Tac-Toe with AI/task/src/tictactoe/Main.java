@@ -32,6 +32,7 @@ public class Main {
 
 
     }
+    //lol cec
 
     static void game(char[][] arr){
         imputxy(arr);
