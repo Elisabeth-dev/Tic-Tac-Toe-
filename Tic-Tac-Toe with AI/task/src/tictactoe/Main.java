@@ -11,19 +11,25 @@ public class Main {
     static char winChar;
     char[][] arr = new char[3][3];
     public static void main(String[] args) {
-        System.out.print("Enter the cells: ");
 
         Scanner scanner = new Scanner(System.in);
-        String line = scanner.next();
+
         char[][] arr = new char[3][3];
         for (int i = 0; i< arr.length; i++){
             for (int j=0; j<arr.length; j++){
-                arr[i][j] = line.charAt(i * 3  + j );
-                if(arr[i][j]=='_'){
-                    arr[i][j] = ' ';
+               arr[i][j] = ' ';
                 }
             }
-        }
+//        String line = scanner.next();
+//        char[][] arr = new char[3][3];
+//        for (int i = 0; i< arr.length; i++){
+//            for (int j=0; j<arr.length; j++){
+//                arr[i][j] = line.charAt(i * 3  + j );
+//                if(arr[i][j]=='_'){
+//                    arr[i][j] = ' ';
+//                }
+//            }
+//        }
 
 
         printarr(arr);
